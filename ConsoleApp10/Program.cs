@@ -15,10 +15,9 @@ for(int i = 0;i < x.GetLength(0); i++)
     for (int j = 0; j < x.GetLength(1); j++)
     {
         if (x[i,j] == 1 )
-        {z
+        {
             Console.Write("*");
-            // /
-            ///
+          
         }
         else
         { Console.Write(" "); }
